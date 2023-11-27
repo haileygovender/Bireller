@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/baseline_info_24"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/baseline_star_rate_24"
+            android:title="Rate Us" />
+
+        <item
+            android:id="@+id/nav_delete_account"
+            android:icon="@drawable/baseline_delete_forever_24"
+            android:title="Delete Account" />
+        <item
+            android:id="@+id/nav_switch_theme"
+            android:icon="@drawable/baseline_switch_left_24"
+            android:title="Switch Theme" />
+
+        <!-- Line Separator -->
+        <item
+            android:id="@+id/nav_separator"
+            android:actionLayout="@layout/menu_separator"
+            android:title="" />
+        <item
+            android:id="@+id/nav_separator1"
+            android:actionLayout="@layout/menu_separator"
+            android:title="" />
+        <item
+            android:id="@+id/nav_separator2"
+            android:actionLayout="@layout/menu_separator"
+            android:title="" />
+        <!-- Line Separator -->
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="Log out" />
+
+
+    </group>
+</menu>

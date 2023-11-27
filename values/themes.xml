@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BirellerApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/G6</item>
+        <item name="colorPrimaryVariant">@color/G5</item>
+        <item name="colorOnPrimary">@color/G8</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/G7</item>
+        <item name="colorSecondaryVariant">@color/G6</item>
+        <item name="colorOnSecondary">@color/G3</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.BirellerApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.BirellerApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.BirellerApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/G6</item>
+        <item name="android:textColorPrimary">@color/G8</item>
+        <item name="android:iconTint">@color/G2</item>
+        <!-- Define other dark theme attributes here -->
+    </style>
+
+    <style name="AppTheme.Light" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/G3</item>
+        <item name="android:textColorPrimary">@color/B1</item>
+        <!-- Define other light theme attributes here -->
+    </style>
+
+
+    <style name="SearchInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/BL2</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="boxCornerRadiusTopStart">36dp</item>
+        <item name="boxCornerRadiusTopEnd">36dp</item>
+        <item name="boxCornerRadiusBottomStart">36dp</item>
+        <item name="boxCornerRadiusBottomEnd">36dp</item>
+        <item name="endIconMode">clear_text</item>
+        <item name="startIconDrawable">@drawable/baseline_search_24</item>
+    </style>
+</resources>
