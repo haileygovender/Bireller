@@ -76,37 +76,37 @@ Once installed, follow these steps to use Bireller:
 2. **Map Exploration:**
    - Navigate to the map section to explore bird hotspots and observation points.
    - Use the filtering options to customize the map based on unit systems and travel distance.
-   - ![WhatsApp Image 2023-11-21 at 18 26 44_9becd587](https://github.com/haileygovender/Bireller/assets/144168154/c816a789-6811-486f-a5cc-d9106699fe72)
-   - ![WhatsApp Image 2023-11-21 at 18 26 54_689898bd](https://github.com/haileygovender/Bireller/assets/144168154/aa3fd6bf-47d4-4002-9912-97bb48501bfc)
-   - ![WhatsApp Image 2023-11-21 at 18 26 55_8d326af1](https://github.com/haileygovender/Bireller/assets/144168154/639c1374-e66a-4689-8596-f0a68fa8128e)
+     ![WhatsApp Image 2023-11-21 at 18 26 44_9becd587](https://github.com/haileygovender/Bireller/assets/144168154/c816a789-6811-486f-a5cc-d9106699fe72)
+     ![WhatsApp Image 2023-11-21 at 18 26 54_689898bd](https://github.com/haileygovender/Bireller/assets/144168154/aa3fd6bf-47d4-4002-9912-97bb48501bfc)
+     ![WhatsApp Image 2023-11-21 at 18 26 55_8d326af1](https://github.com/haileygovender/Bireller/assets/144168154/639c1374-e66a-4689-8596-f0a68fa8128e)
 
 
 
 
 3. **Observation Recording:**
    - Record bird observations by tapping on the pin location or using the dedicated recording feature.
-   - ![WhatsApp Image 2023-11-21 at 18 26 52_86d59466](https://github.com/haileygovender/Bireller/assets/144168154/65f8a773-2deb-4aa0-ae26-0b7903b3bd04)
+     ![WhatsApp Image 2023-11-21 at 18 26 52_86d59466](https://github.com/haileygovender/Bireller/assets/144168154/65f8a773-2deb-4aa0-ae26-0b7903b3bd04)
 
    - View your observation history and details in the Observation Management section.
-   - ![WhatsApp Image 2023-11-21 at 18 26 56_0a2832bd](https://github.com/haileygovender/Bireller/assets/144168154/eeedab89-f106-4123-8bdb-1c5649a5dc71)
+    ![WhatsApp Image 2023-11-21 at 18 26 56_0a2832bd](https://github.com/haileygovender/Bireller/assets/144168154/eeedab89-f106-4123-8bdb-1c5649a5dc71)
 
 
 4. **Additional Features:**
    - Explore additional features such as the Website Explorer, Bird Explorer, and Tic Tac Toe for added entertainment.
-   - ![WhatsApp Image 2023-11-21 at 18 26 50_df4365e4](https://github.com/haileygovender/Bireller/assets/144168154/be298a31-e0e4-46ee-a1cd-eee69eb9c0de)
-   - ![WhatsApp Image 2023-11-21 at 18 26 50_7c0103a1](https://github.com/haileygovender/Bireller/assets/144168154/eae6561e-1429-4f26-9ebd-ecc23d9a4ff3)
+     ![WhatsApp Image 2023-11-21 at 18 26 50_df4365e4](https://github.com/haileygovender/Bireller/assets/144168154/be298a31-e0e4-46ee-a1cd-eee69eb9c0de)
+     ![WhatsApp Image 2023-11-21 at 18 26 50_7c0103a1](https://github.com/haileygovender/Bireller/assets/144168154/eae6561e-1429-4f26-9ebd-ecc23d9a4ff3)
 
 
 
 5. **Profile Management:**
    - Update your profile information as needed.
    - Optionally, delete your account if desired.
-   - ![WhatsApp Image 2023-11-21 at 18 26 44_a326fa14](https://github.com/haileygovender/Bireller/assets/144168154/b02cc605-d91c-47e8-9d44-b198d134b92b)
+    ![WhatsApp Image 2023-11-21 at 18 26 44_a326fa14](https://github.com/haileygovender/Bireller/assets/144168154/b02cc605-d91c-47e8-9d44-b198d134b92b)
 
 
 6. **Customization:**
    - Adjust app settings, including the choice between dark and light modes.
-   - ![WhatsApp Image 2023-11-21 at 18 26 48_8acc087c](https://github.com/haileygovender/Bireller/assets/144168154/60f00774-4a3d-4fad-920d-f873908bef3a)
+    ![WhatsApp Image 2023-11-21 at 18 26 48_8acc087c](https://github.com/haileygovender/Bireller/assets/144168154/60f00774-4a3d-4fad-920d-f873908bef3a)
 
 
 7. **Providing Feedback:**
