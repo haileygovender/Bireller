@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings.ui.gallery.GalleryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/gradient_bg"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+                <!-- Header -->
+                <ImageView
+                    android:id="@+id/logoImageView"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/logo_image"
+                    tools:ignore="ContentDescription" />
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/tvDisplayName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/psterifolditalic"
+                    android:hint="@string/settings"
+                    android:textColor="@color/G8"
+                    android:textColorHint="#26A69A"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/logoImageView" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mavenprovariablefont_wght"
+            android:layout_marginTop="15dp"
+            android:text="Please select the type of distance you would want to travel"
+            android:textColor="@color/BL2"
+            android:textSize="15sp"
+           android:layout_gravity="center"/>
+
+        <ToggleButton
+            android:id="@+id/toggleUnits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/BL2"
+            android:layout_marginTop="30dp"
+            android:checked="true"
+            android:background="@drawable/image_boarder"
+            android:textColor="@color/G8"
+            android:textOff="@string/imperial_mi"
+            android:textOn="@string/metric_km"
+            tools:ignore="VisualLintButtonSize" />
+
+        <EditText
+            android:id="@+id/edtDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/profilebutton_bg"
+            android:hint="@string/enter_distance"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/G8"
+            android:textSize="20sp"
+            tools:ignore="TextFields,TextSizeCheck,VisualLintTextFieldSize"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/green_border"
+            android:backgroundTint="@color/G2"
+            android:text="@string/save"
+            android:textColor="@color/G8"
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck,VisualLintButtonSize" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

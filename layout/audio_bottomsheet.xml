@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:id="@+id/bottomSheet"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_record"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/gradient_bg"
+        app:boxStrokeColor="@color/white"
+        app:boxCornerRadiusBottomStart="26dp"
+        app:boxCornerRadiusBottomEnd="26dp"
+        app:boxCornerRadiusTopStart="26dp"
+        app:boxCornerRadiusTopEnd="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fileNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            tools:ignore="SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancel"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/G2"
+            android:text="@string/cancel"
+            android:textColor="#FFEBEE"
+            app:cornerRadius="26dp"
+            tools:ignore="VisualLintBounds" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOk"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/G2"
+            android:text="@string/ok"
+            android:textColor="#FFEBEE"
+            app:cornerRadius="26dp"
+            tools:ignore="VisualLintBounds" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".authentication.ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="326dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/gradient_bg"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnUpdateProfileImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/photo_circle"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/edtUpdateFullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/wiliam_snow_update"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor,TextFields" />
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                tools:ignore="DisableBaselineAlignment,VisualLintBounds">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/birds_num"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvBirdsCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/_125_num"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/G6"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rank_update"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvRank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/_1205_update"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/G6"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/points_update"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvPointsCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/hint_update"
+                        android:textColor="@color/G6"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlHardcoded,RtlSymmetry">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:tint="@color/G2"
+                android:src="@drawable/ic_email"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/edtUpdateEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="@string/wiliam_gmail_com"
+                android:textStyle="bold"
+                tools:ignore="LabelFor,TextFields,TouchTargetSizeCheck"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlHardcoded,RtlSymmetry">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:tint="@color/G2"
+                android:src="@drawable/baseline_smartphone_24"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/edtUpdateNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="@string/_067_225_1225"
+
+                android:textStyle="bold"
+                tools:ignore="LabelFor,TextFields,TouchTargetSizeCheck"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlHardcoded,RtlSymmetry">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:tint="@color/G2"
+                android:src="@drawable/baseline_cake_24"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/tvDob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="03-28-2003"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextFields,TouchTargetSizeCheck"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnUpdateProfile"
+        android:textColor="@color/G8"
+        android:backgroundTint="@color/BL2"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_me"/>
+
+</LinearLayout>

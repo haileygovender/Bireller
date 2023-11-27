@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    tools:context=".observation.AddObservation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="603dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/image_boarder"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/agbalumoregular"
+            android:text="@string/please_upload_your_observation"
+            android:textColor="@color/G7"
+            android:textSize="12sp"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/uploadImage"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/baseline_upload_file_24"
+            tools:ignore="ContentDescription" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/G2"
+            android:visibility="invisible" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/uploadCaption"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="0.6"
+                android:background="@color/G7"
+                android:fontFamily="@font/agbalumoregular"
+                android:hint="@string/type_of_bird"
+                android:padding="16dp"
+                android:textColor="@color/BL2"
+                android:textStyle="bold"
+                tools:ignore="InefficientWeight,TextFields,VisualLintTextFieldSize"
+                android:importantForAutofill="no" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/uploadButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-40dp"
+                android:backgroundTint="@color/G6"
+                android:src="@drawable/baseline_add_24"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription,RtlHardcoded,SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

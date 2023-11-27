@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".authentication.AddProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/gradient_bg"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgBtnProfileImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/photo_circle"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/etFullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/agbalumoregular"
+                android:hint="@string/wiliam_snow"
+                android:importantForAutofill="no"
+                android:minHeight="48dp"
+                android:textColor="#fff"
+                android:textColorHint="#689F38"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                tools:ignore="TextFields,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="ObsoleteLayoutParam">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/badges"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/_1205"
+                android:textColor="@color/G6"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="ObsoleteLayoutParam">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/points"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/_360"
+                android:textColor="@color/G6"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlHardcoded,RtlSymmetry">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_email"
+                app:tint="@color/G2"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/etUserEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="@string/wiliam_gmail_com_profile"
+                android:fontFamily="@font/mavenprovariablefont_wght"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                tools:ignore="TextFields,TouchTargetSizeCheck"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlHardcoded,RtlSymmetry">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:tint="@color/G2"
+                android:src="@drawable/baseline_smartphone_24"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/etUserNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="@string/_063_225_2256"
+                android:fontFamily="@font/mavenprovariablefont_wght"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                tools:ignore="TextFields,TouchTargetSizeCheck"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlHardcoded,RtlSymmetry">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:tint="@color/G2"
+                android:src="@drawable/baseline_cake_24"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/etDateOfBirth"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="@color/G8"
+                android:paddingLeft="20dp"
+                android:hint="@string/_03_28_2003"
+                android:fontFamily="@font/mavenprovariablefont_wght"
+                android:textStyle="bold"
+                tools:ignore="TextFields,TouchTargetSizeCheck"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRegisterProfile"
+        android:textColor="@color/G8"
+        android:backgroundTint="@color/BL2"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/add_profile"/>
+
+</LinearLayout>

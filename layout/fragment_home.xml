@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/gradient_bg"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/tvDisplayName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/psterifolditalic"
+                    android:hint="@string/hello_user_welcome_to_bireller"
+                    android:textColor="@color/G8"
+                    android:textColorHint="#689F38"
+                    android:textSize="30sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/logoImageView" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintVertical_bias="0.314">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_marginTop="200dp"
+            android:orientation="horizontal"
+            tools:ignore="VisualLintBounds">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/BL2"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/exploreButton"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/todo_explore"
+                    android:src="@drawable/ic_explore"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center"
+                    android:text="@string/explore_home"
+                    android:textAlignment="center"
+                    android:textColor="@color/G8"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/BL2"
+                android:orientation="vertical"
+                app:cornerRadius="30dp">
+
+                <ImageButton
+                    android:id="@+id/observationButton"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_sight"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:contentDescription="@string/todo_observe" />
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center"
+                    android:text="@string/sightings"
+                    android:textAlignment="center"
+                    android:textColor="@color/G8"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/BL2"
+                android:orientation="vertical"
+                app:cornerRadius="30dp">
+
+                <ImageButton
+                    android:id="@+id/recordsButton"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_microphone"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center"
+                    android:text="@string/recordings"
+                    android:textAlignment="center"
+                    android:textColor="@color/G8"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/BL2"
+                android:orientation="vertical"
+                app:cornerRadius="30dp">
+
+                <ImageButton
+                    android:id="@+id/tictacButton"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/tic_tac"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/title8"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center"
+                    android:text="@string/tic_tac_toe_home"
+                    android:textAlignment="center"
+                    android:textColor="@color/G8"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/BL2"
+                android:orientation="vertical"
+                app:cornerRadius="30dp">
+
+                <ImageButton
+                    android:id="@+id/birdsButton"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/birds_screen"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/title7"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center"
+                    android:text="@string/birds_home"
+                    android:textAlignment="center"
+                    android:textColor="@color/G8"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

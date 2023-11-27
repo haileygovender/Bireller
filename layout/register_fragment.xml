@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_box"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/register_screen"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/signup_email"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:textColor="@color/BL2"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_bkg"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="8dp"
+                android:hint="@string/email_reg"
+                android:padding="8dp"
+                android:importantForAutofill="no"
+                tools:ignore="RtlHardcoded,TextFields" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:id="@+id/signup_password"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/BL2"
+                android:padding="8dp"
+                android:hint="@string/password_reg"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="8dp"
+                android:background="@drawable/edittext_bkg"
+                android:importantForAutofill="no"
+                tools:ignore="RtlHardcoded" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:id="@+id/signup_confirm"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:hint="@string/confirm_password"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/ic_password"
+                android:drawablePadding="8dp"
+                android:background="@drawable/edittext_bkg"
+                android:importantForAutofill="no"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:layout_width="300dp"
+                android:backgroundTint="@color/BL2"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:id="@+id/signup_button"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:text="@string/signup"
+                app:cornerRadius = "30dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
